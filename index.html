@@ -1,1 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohith Buddhala Portfolio</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#020617;
+position:sticky;
+top:0;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:50px;
+color:#3b82f6;
+}
+
+.hero p{
+margin-top:10px;
+max-width:600px;
+}
+
+.btn{
+margin-top:20px;
+padding:10px 25px;
+border:none;
+background:#3b82f6;
+color:white;
+cursor:pointer;
+border-radius:6px;
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+margin-bottom:50px;
+font-size:32px;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.skill-card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+.contact{
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Rohith</h2>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>Rohith Buddhala</h1>
+
+<h3>Data Science & Machine Learning Enthusiast</h3>
+
+<p>
+Passionate about transforming raw data into meaningful insights using
+Python, Machine Learning, and Data Visualization.
+</p>
+
+<a href="cv.pdf">
+<button class="btn">Download Resume</button>
+</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<p>
+I am an aspiring Data Scientist with strong interest in machine learning,
+data analysis, and visualization. I enjoy working with real-world datasets
+to discover patterns and build predictive models.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill-card">
+<h3>Programming</h3>
+<p>Python, C</p>
+</div>
+
+<div class="skill-card">
+<h3>Data Science</h3>
+<p>Pandas, NumPy, Scikit-learn</p>
+</div>
+
+<div class="skill-card">
+<h3>Visualization</h3>
+<p>Matplotlib, Seaborn, Tableau, Power BI</p>
+</div>
+
+<div class="skill-card">
+<h3>Tools</h3>
+<p>Git, Excel, Jupyter Notebook</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Global Carbon Emission Analysis</h3>
+
+<p>
+Performed exploratory data analysis on global carbon emission datasets.
+Built dashboards using Tableau and visualization tools to analyze
+sector-wise and country-wise emission patterns.
+</p>
+
+</div>
+
+<div class="project-card">
+<h3>Hate Speech Detection System</h3>
+
+<p>
+Built an NLP based machine learning model that detects hate speech and
+offensive language using preprocessing techniques like tokenization,
+stopword removal and vectorization.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="contact">
+
+<p>Email: rohithbuddhala@gmail.com</p>
+
+<p>Phone: +91 8144883526</p>
+
+<p>GitHub: github.com/rohith2223</p>
+
+<p>LinkedIn: linkedin.com/in/rohith-buddhala</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Rohith Buddhala | Portfolio</p>
+
+</footer>
+
+</body>
+</html>
